@@ -37,8 +37,8 @@ int main ()
 		for(int i=0;i<3;i++)
 		{
 			memset(myLeft,'\0',sizeof(myLeft));
-   	    	memset(myRight,'\0',sizeof(myRight));
-   	    	memset(myState,'\0',sizeof(myState));
+   	    		memset(myRight,'\0',sizeof(myRight));
+   	    		memset(myState,'\0',sizeof(myState));
 			scanf("%s%s%s",myLeft,myRight,myState);
 			if(myState[0]=='u')
 			{
